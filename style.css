@@ -1,0 +1,291 @@
+*{
+    margin:0px;
+    
+}
+header{
+    margin-right: 0px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+   z-index: 3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 20px  160px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-right: 30px;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+padding-top: 6px;
+font-weight: 400;
+}
+li::after{
+    content: '';
+    display: block;
+    background-color:#d70f64 ;
+    height: 2px;
+    width: 0px;
+    margin: auto;
+    transition: 0.5s;
+}
+li:hover::after{
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: #d70f64;
+
+}
+.nations{
+    background-color: rgba(176,176,176,255);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.nationsimg{
+    margin-right: 250px;
+}
+.nationsimg img{
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.nationsimg img:hover{
+    transform: scale(1.2);
+}
+.nationsp{
+    margin-left: 100px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 300px;   
+}
+.main2full h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #d70f64;  
+}
+.main2full p{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 0px 35px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+}
+.span1{
+    margin-left: 360px;
+}
+.learn{
+      color: #fff;
+      background-color: #d70f64;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-left: 280px;
+      padding: 20px 50px 20px 50px;
+      border: none;
+      text-transform: uppercase;
+      width: 33%;
+      transition: 0.5s;
+}
+.learn:hover{
+    color:#d70f64;
+    background-color: white ;
+    border: 2px solid #d70f64;
+    transform: scale(1.1);
+}
+.main3{
+     background-image: url(images/foodpanda-rider-opt.jpg);
+    background-position: center;
+   background-size: 1487px;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.main3full h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #d70f64;
+    text-shadow: 2px -2px  white;
+}
+.main3full p{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 0px 35px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    color: #fff;
+    text-shadow: 2px white;
+    font-weight: 700;
+}
+.join{
+    color: #fff;
+    background-color: #d70f64;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 190px;
+    padding: 20px 110px ;
+    border: none;
+    text-transform: uppercase;
+   transition: 0.5s;
+}
+.join:hover{
+    color:#d70f64;
+    background-color: white ;
+    border: 2px solid #d70f64;
+    transform: scale(1.1);
+}
+.main4{
+    background-image: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-tuna-opt-scaled.jpg);
+   background-position: cover;
+  background-size: 1750px;
+  background-repeat: repeat;
+   display: flex;
+   justify-content: center;
+   padding-top: 300px;
+   padding-bottom: 300px;
+}
+.main4full h1{
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 100;
+   margin: 0 0 20px;
+   text-transform: uppercase;
+   font-weight: 400;
+   letter-spacing: 1px;
+   color: #d70f64;
+   text-shadow: 2px -2px  white;
+   font-weight: 300;
+}
+.main4full p{
+   font-family: 'Raleway', sans-serif;
+   margin: 0px 0px 35px;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 2;
+   color: #fff;
+   text-shadow: 2px white;
+   font-weight: 700;
+}
+.latest{
+   color: #fff;
+   background-color: #d70f64;
+   font-weight: 500;
+   margin-top: 20px;
+   margin-left: 280px;
+   padding: 20px 110px ;
+   border: none;
+   text-transform: uppercase;
+   transition: 0.5s;
+}
+.latest:hover{
+    color:#d70f64;
+    background-color: white ;
+    border: 2px solid #d70f64;
+    transform: scale(1.1);
+}
+.span2{
+    margin-left: 260px;
+}
+.main5{
+  background-color: #d70f64;
+    background-size: 1750px;
+   display: flex;
+   justify-content: center;
+   padding-top: 300px;
+   padding-bottom: 300px;
+}
+.main5full h1{
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 100;
+   margin: 0 0 20px;
+   text-transform: uppercase;
+   font-weight: 400;
+   letter-spacing: 1px;
+   color:white;
+   font-weight: 300;
+ }
+.main5full p{
+   font-family: 'Raleway', sans-serif;
+   margin: 0px 0px 35px;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 2;
+   color: #fff;
+   font-weight: 700;
+}
+.CONTACTS{
+   color:#d70f64;
+   background-color: white ;
+   font-weight: 500;
+   margin-top: 20px;
+   margin-left: 280px;
+   padding: 20px 110px ;
+   border: none;
+   text-transform: uppercase;
+   transition: 0.5s;
+}
+.CONTACTS:hover{
+    color:white;
+    background-color: #d70f64 ;
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+.span3{
+    margin-left: 260px;
+}
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 0px  160px;
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px  160px;
+}
+.foot2p p{
+font-weight: 500;
+font-family:  'Raleway', sans-serif;
+padding-top:20px ;
+}
+.foot22p{
+    display: flex;
+}
+.foot22p p{
+    padding-left: 20px;
+    padding-top:20px ;
+    font-weight: 500;
+font-family:  'Raleway', sans-serif;
+margin-bottom:50px ;
+}
