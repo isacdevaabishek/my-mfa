@@ -115,6 +115,7 @@ li a{
 }
 .main3{
      background-image: url(images/foodpanda-rider-opt.jpg);
+    background-attachment: fixed;
     background-position: center;
    background-size: 1487px;
     background-repeat: repeat;
@@ -164,6 +165,7 @@ li a{
 }
 .main4{
     background-image: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-tuna-opt-scaled.jpg);
+    background-attachment: fixed;
    background-position: cover;
   background-size: 1750px;
   background-repeat: repeat;
